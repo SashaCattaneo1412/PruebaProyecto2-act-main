@@ -3,7 +3,7 @@ import Button from '../components/Buttons';
 //import { boton_prendido } from '../conexion/Adafruit'
 //import { boton_apagado } from '../conexion/Adafruit'
 //import { value } from '../conexion/Adafruit'
-
+import style from '../styles/Registrarse.module.css'
 
 
 const Pastilla1 = () => {
@@ -17,6 +17,7 @@ const Pastilla1 = () => {
             <Button text="Prender" onClick={() => turnOn()} /> <br />
             <h1>¿APAGAR EL LED?</h1>
             <Button text="Apagar" onClick={() => turnOff()} />
+            <input type="grados" className="form-control" id="gradosinput" placeholder="Grados" />
         </div>
     )
 }

@@ -7,9 +7,8 @@ import Layout from '../components/Layout'
    return (
     <div>
       <h1 className={style.title}>BIENVENIDO A PILL-DRILL</h1>
-     <PhotoCarousel />
        
-     <main className={style.flexbox}>
+     <div className={style.flexbox}>
         <form>
 
           <div className={style.contenedorflotante}>
@@ -21,13 +20,8 @@ import Layout from '../components/Layout'
             <input type="password" className="form-control" id="floatingPassword" placeholder=" Contraseña" />
             </div>
 
-          <div>
-            <label className={style.seguimiento}>
-            
-            </label>
-          </div>
-
         
+           <div className={style.contenedor}>
 
           <div>
             <label className={style.cuenta}>
@@ -45,10 +39,10 @@ import Layout from '../components/Layout'
            
           <button className="w-100 btn btn-lg btn-primary" type="submit" href="/compartieminto">IR</button>
 
-
+          </div>
 
         </form>
-      </main>
+      </div>
 
 
     </div>

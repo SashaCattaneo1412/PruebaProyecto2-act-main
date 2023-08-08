@@ -6,7 +6,7 @@
   justify-content: center;
   flex-direction: column;
   gap: 20px;
-
+  
 }
 
  .title{
@@ -15,10 +15,9 @@
  }
 
   .contenedorflotante{
-    align-content: center;
     border: none;
-    gap: 20px;
     margin: auto;
+    border-radius: 40px;
   }
 
   .contenedorflotante input[type="INPUT"] {
@@ -53,9 +52,20 @@
     letter-spacing: 0em;
     text-align: left;
   }
+
+.contenedor
+{
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+
+}
 .seguimiento
 {
-   text-align: center;
+ 
     width: 393px;
     height: 76px;
     font-family: Lexend;
@@ -70,5 +80,6 @@
 .boton
 {
   border-radius: 40px;
+  color: blue;
  
 }

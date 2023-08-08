@@ -30,6 +30,8 @@ import Layout from '../components/Layout'
 
             </div>
 
+
+         <div className={style.contenedor}> 
           <div>
             <label className={style.seguimiento}>
             Hay alguna persona que te hará un seguimiento en tu app?
@@ -44,7 +46,6 @@ import Layout from '../components/Layout'
 
 
 
-
           <div className={style.boton}>  
            <button className="w-100 btn btn-lg btn-primary" type="submit">IR</button>
            </div>
@@ -52,7 +53,7 @@ import Layout from '../components/Layout'
             ¿Ya tienes cuenta? 
             </label>
             <Link href="/InicioSesion"> Iniciar sesion </Link>
-         
+            </div>
 
           </form>
     
