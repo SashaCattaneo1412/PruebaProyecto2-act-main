@@ -1,0 +1,63 @@
+
+
+.flexbox {
+  
+}
+
+ .title{
+ 
+   text-align: center;
+ }
+
+  .contenedorflotante input[type="INPUT"] {
+    width: 290px;
+    height: 44px;
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    color: var(--negro);
+    gap: 40px;
+    font-family: 'Lexend';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+  }
+
+
+  .contenedorflotante input[type="password"] {
+    width: 290px;
+    height: 44pX;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    gap: 21px;
+    font-family: 'Lexend';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+.seguimiento
+{
+    width: 393px;
+    height: 76px;
+    top: 641px;
+    left: 523px;
+    font-family: Lexend;
+    font-size: 22px;
+    font-weight: 500px;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: right;
+
+    
+}
+.boton
+{
+
+  color: blue;
+
+}
